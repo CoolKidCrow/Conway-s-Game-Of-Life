@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Conway_s_Game_Of_Life</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\clear-button.png" />
+    <None Remove="Images\play-pause-button.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\clear-button.png">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\play-pause-button.png" />
+  </ItemGroup>
+
+</Project>
