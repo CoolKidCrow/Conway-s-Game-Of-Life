@@ -10,6 +10,8 @@
 
   <ItemGroup>
     <None Remove="Images\clear-button.png" />
+    <None Remove="Images\pause-button.png" />
+    <None Remove="Images\play-button.png" />
     <None Remove="Images\play-pause-button.png" />
   </ItemGroup>
 
@@ -17,6 +19,8 @@
     <Resource Include="Images\clear-button.png">
       <CopyToOutputDirectory></CopyToOutputDirectory>
     </Resource>
+    <Resource Include="Images\pause-button.png" />
+    <Resource Include="Images\play-button.png" />
     <Resource Include="Images\play-pause-button.png" />
   </ItemGroup>
 
